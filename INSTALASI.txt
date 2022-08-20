@@ -1,0 +1,10 @@
+1. Buat databse db_prakerin lalu Importkan file db_prakerin.sql ke phpmyadmin
+2. atur konfigurasi database di file .env (nama database, username, password)
+3. buka folder app/config/App.php 
+pada line 26 ubah : 	
+public $baseURL = 'http://localhost:8080/';
+4. atau buka Command Promt, masuk ke cd (folder asal source code)
+5. ketik *php spark serve* kemudian copas hasilnya ke web 'http://localhost:8080/'
+6. Aplikasi sudah terpasang.
+
+
